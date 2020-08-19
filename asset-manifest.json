@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/booking-deneme/static/css/main.98bbee72.chunk.css",
+    "main.js": "/booking-deneme/static/js/main.2b7c5b8e.chunk.js",
+    "main.js.map": "/booking-deneme/static/js/main.2b7c5b8e.chunk.js.map",
+    "runtime-main.js": "/booking-deneme/static/js/runtime-main.82e7d4b3.js",
+    "runtime-main.js.map": "/booking-deneme/static/js/runtime-main.82e7d4b3.js.map",
+    "static/css/2.b8917cc6.chunk.css": "/booking-deneme/static/css/2.b8917cc6.chunk.css",
+    "static/js/2.a4e3637c.chunk.js": "/booking-deneme/static/js/2.a4e3637c.chunk.js",
+    "static/js/2.a4e3637c.chunk.js.map": "/booking-deneme/static/js/2.a4e3637c.chunk.js.map",
+    "index.html": "/booking-deneme/index.html",
+    "precache-manifest.d063e7d21c7a5c0b57e6f746a2331b65.js": "/booking-deneme/precache-manifest.d063e7d21c7a5c0b57e6f746a2331b65.js",
+    "service-worker.js": "/booking-deneme/service-worker.js",
+    "static/css/2.b8917cc6.chunk.css.map": "/booking-deneme/static/css/2.b8917cc6.chunk.css.map",
+    "static/css/main.98bbee72.chunk.css.map": "/booking-deneme/static/css/main.98bbee72.chunk.css.map",
+    "static/js/2.a4e3637c.chunk.js.LICENSE.txt": "/booking-deneme/static/js/2.a4e3637c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82e7d4b3.js",
+    "static/css/2.b8917cc6.chunk.css",
+    "static/js/2.a4e3637c.chunk.js",
+    "static/css/main.98bbee72.chunk.css",
+    "static/js/main.2b7c5b8e.chunk.js"
+  ]
+}
