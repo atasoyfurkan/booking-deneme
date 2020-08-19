@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/booking-deneme/static/css/main.98bbee72.chunk.css",
-    "main.js": "/booking-deneme/static/js/main.a2ba8d9e.chunk.js",
-    "main.js.map": "/booking-deneme/static/js/main.a2ba8d9e.chunk.js.map",
+    "main.js": "/booking-deneme/static/js/main.df412b79.chunk.js",
+    "main.js.map": "/booking-deneme/static/js/main.df412b79.chunk.js.map",
     "runtime-main.js": "/booking-deneme/static/js/runtime-main.82e7d4b3.js",
     "runtime-main.js.map": "/booking-deneme/static/js/runtime-main.82e7d4b3.js.map",
     "static/css/2.b8917cc6.chunk.css": "/booking-deneme/static/css/2.b8917cc6.chunk.css",
-    "static/js/2.884aa3e1.chunk.js": "/booking-deneme/static/js/2.884aa3e1.chunk.js",
-    "static/js/2.884aa3e1.chunk.js.map": "/booking-deneme/static/js/2.884aa3e1.chunk.js.map",
+    "static/js/2.b390fbf6.chunk.js": "/booking-deneme/static/js/2.b390fbf6.chunk.js",
+    "static/js/2.b390fbf6.chunk.js.map": "/booking-deneme/static/js/2.b390fbf6.chunk.js.map",
     "index.html": "/booking-deneme/index.html",
-    "precache-manifest.bad79d04c592a0c1c0a3af8b2f756031.js": "/booking-deneme/precache-manifest.bad79d04c592a0c1c0a3af8b2f756031.js",
+    "precache-manifest.bde82526d5fb4bf600fa0fc942c1572e.js": "/booking-deneme/precache-manifest.bde82526d5fb4bf600fa0fc942c1572e.js",
     "service-worker.js": "/booking-deneme/service-worker.js",
     "static/css/2.b8917cc6.chunk.css.map": "/booking-deneme/static/css/2.b8917cc6.chunk.css.map",
     "static/css/main.98bbee72.chunk.css.map": "/booking-deneme/static/css/main.98bbee72.chunk.css.map",
-    "static/js/2.884aa3e1.chunk.js.LICENSE.txt": "/booking-deneme/static/js/2.884aa3e1.chunk.js.LICENSE.txt"
+    "static/js/2.b390fbf6.chunk.js.LICENSE.txt": "/booking-deneme/static/js/2.b390fbf6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.82e7d4b3.js",
     "static/css/2.b8917cc6.chunk.css",
-    "static/js/2.884aa3e1.chunk.js",
+    "static/js/2.b390fbf6.chunk.js",
     "static/css/main.98bbee72.chunk.css",
-    "static/js/main.a2ba8d9e.chunk.js"
+    "static/js/main.df412b79.chunk.js"
   ]
 }
