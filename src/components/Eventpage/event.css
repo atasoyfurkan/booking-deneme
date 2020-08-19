@@ -1,0 +1,669 @@
+body {
+  background-color: #d5d5d5 !important;
+}
+
+.asd {
+  z-index: 999;
+}
+
+#logo-full {
+  width: 7em;
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {}
+
+#footer2 {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  #desktop-container .row:not(.exclusion) {
+    padding-left: 1.3em !important;
+    padding-right: 1.3em !important;
+  }
+
+  #upcoming-events {
+    border-bottom: 1px solid #eaeaea;
+  }
+
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.heading-decoration {
+  font-size: 0.9em;
+}
+
+#booking-button-bar {
+  height: 4.9em;
+}
+
+@media (max-width: 577px) {
+
+  #booking-button-bar.float {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  #session-title.float {
+    margin-top: 4.9em;
+  }
+
+}
+
+@media (min-width: 577px) {
+
+  #main-images.float {
+    position: fixed;
+    top: 0;
+  }
+
+  #main-images.stay {
+    position: absolute;
+    left: 0 !important;
+    bottom: 0 !important;
+  }
+
+}
+
+#fullscreen-info .fa,
+#booking-button-bar .fa {
+  width: 1.4em;
+}
+
+#fullscreen-info {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s linear;
+}
+
+#fullscreen-info.float {
+  max-height: 100vh;
+  overflow: visible;
+  transition: max-height 0.8s linear;
+}
+
+#session-description p {
+  margin-bottom: 0.7em;
+}
+
+@media (min-width: 577px) {
+
+  #booking-faq .faq-question .fa {
+    display: none;
+  }
+
+  #booking-faq .faq-question {
+    color: #9d7839;
+  }
+
+  #booking-faq .faq-answer {
+    max-height: 100vh;
+  }
+
+}
+
+.logo-mini {
+  width: 100%;
+  height: auto;
+}
+
+.client-quote {
+  font-size: 1.1em;
+}
+
+@media (max-width: 577px) {
+  .client-quote {
+    line-height: 1.3;
+  }
+}
+
+/* Event Info Rate Testimonials */
+
+#testimonials-carousel .slide {
+  background-color: #222222 !important;
+}
+
+@media (max-width: 1300px) {
+  #testimonials-carousel .carousel-root {
+    width: 90% !important;
+  }
+}
+
+/* Carousel */
+
+.slide.hidden {
+  height: 0;
+  overflow: hidden;
+}
+
+#carousel-main-images .slide {
+  width: 100%;
+  padding: 0;
+}
+
+#carousel-main-images img {
+  width: 100%;
+  height: auto
+}
+
+@media (max-width: 577px) {
+
+  #carousel-main-images img {
+    width: 100%;
+    height: 100vw;
+  }
+
+}
+
+#testimonials-carousel .flickity-button {
+  background: transparent;
+}
+
+#testimonials-carousel .flickity-prev-next-button {
+  width: 2em;
+  height: 2em;
+  border-radius: 5px;
+}
+
+#testimonials-carousel .flickity-prev-next-button.previous {
+  left: -0.5em;
+}
+
+#testimonials-carousel .flickity-prev-next-button.next {
+  right: -0.5em;
+}
+
+#testimonials-carousel .flickity-button-icon {
+  fill: white;
+}
+
+/* Map */
+
+#map {
+  width: 100%;
+  height: 15em;
+}
+
+
+/* Calendar styling */
+
+.ui-datepicker-header {
+  margin-top: 0.5em;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.ui-datepicker-title {
+  width: 100%;
+  text-align: center;
+}
+
+.ui-datepicker-header .ui-icon {
+  font-size: 1.4em;
+  position: relative;
+  top: -0.3em;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.ui-datepicker-header .ui-icon:hover {
+  color: #c4974c;
+}
+
+.ui-corner-all.ui-state-disabled .ui-icon {
+  color: #d5d5d5 !important;
+  cursor: default !important;
+}
+
+.ui-datepicker-prev {
+  float: left;
+}
+
+.ui-datepicker-next {
+  float: right;
+}
+
+.ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.ui-datepicker-calendar td {
+  font-size: 0.9em;
+  padding: 0.3em;
+}
+
+.ui-datepicker-calendar td a,
+.ui-datepicker-calendar td span {
+  padding: 0.4em;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2.2em;
+}
+
+.ui-datepicker-calendar td a {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #c4974c;
+  transition: background-color 0.2s;
+}
+
+.ui-datepicker-calendar td a:hover {
+  background-color: #222222;
+}
+
+.ui-datepicker-calendar td a.ui-state-active {
+  background-color: #222222;
+  color: #e7ce99;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-other-month span {
+  color: #d5d5d5;
+}
+
+.date-select {
+  position: relative;
+}
+
+#datepicker-container {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 2.5em;
+  left: 0;
+  padding: 0.5em;
+  z-index: 999;
+}
+
+#datepicker-container.visible {
+  display: block;
+}
+
+#datepicker-greybg {
+  background-color: #f4f4f4;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 5px 5px 3px -4px rgba(0, 0, 0, 0.58);
+  box-shadow: 5px 5px 3px -4px rgba(0, 0, 0, 0.58);
+  padding: 0.5em;
+
+}
+
+.button-small {
+  padding: 0.5em 1.3em;
+  border-radius: 0.5em;
+  margin: 0 0.1em;
+}
+
+.button-grey2 {
+  color: #222;
+  border: 1px solid #c5c5c5;
+}
+
+.filter-tools {
+  padding-top: 1em;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+
+/* Booking Screen */
+
+.popheading {
+  margin-top: -0.5em
+}
+
+@media (min-width: 577px) {
+  .popheading {
+    margin-top: -1em
+  }
+}
+
+.booking-date {
+  display: none;
+}
+
+.booking-date.active {
+  display: block;
+}
+
+.dates-arrow {
+  padding: 0.5em;
+  font-size: 1.4em;
+  cursor: pointer;
+  color: #c4974c;
+}
+
+.dates-arrow.inactive {
+  color: #eaeaea !important;
+  cursor: default !important;
+}
+
+.close-booksession {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#dates-top {
+  height: 9.5em;
+}
+
+#select-time {
+  height: 100%;
+}
+
+#timeslots {
+  height: calc(100% - 15.5em);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+@media (max-width: 347px) {
+  #timeslots {
+    height: calc(100% - 45.5em);
+  }  
+}
+
+.timeslot {
+  padding: 0.7em;
+  margin-bottom: 0.5em;
+  border-radius: 0.25em;
+  cursor: default;
+  background-color: #eaeaea;
+  color: #a5a5a5;
+}
+
+.timeslot.available {
+  background-color: #f68622;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.timeslot.available:hover {
+  opacity: 0.6;
+}
+
+#book-session {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+#book-session.visible {
+  display: flex;
+}
+
+#book-session .col-12 {
+  cursor: default;
+}
+
+
+/* Form Fields */
+
+.submit-response {}
+
+.form-field {
+  position: relative;
+  padding-top: 1.2em;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.form-field textarea,
+.form-field option,
+.form-field select,
+.form-field input {
+  width: calc(100% - 2em);
+  padding: 0.3em;
+  line-height: 1.3;
+  border: 0.5px solid #999999;
+}
+
+.form-field textarea {
+  width: 100%;
+}
+
+.specialrequest-label {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.specialrequest-label:hover {
+  color: #c4974c;
+}
+
+.specialrequest .fa-minus-circle {
+  display: none;
+}
+
+.specialrequest.open .fa-minus-circle {
+  display: inline;
+}
+
+.specialrequest.open .fa-plus-circle {
+  display: none;
+}
+
+.specialrequest .specialrequest-content {
+  display: none;
+}
+
+.specialrequest.open .specialrequest-content {
+  display: block;
+}
+
+.form-field .fa-check {
+  color: #eaeaea;
+  transition: all 0.3s;
+}
+
+.form-field.valid .fa-check {
+  color: #4cc477 !important;
+}
+
+.form-field textarea {
+  min-height: 10em;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+.form-field label {
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.form-field.highlight label {
+  color: #f68622;
+}
+
+.form-field.highlight select,
+.form-field.highlight input,
+.form-field.highlight textarea {
+  border: 0.5px solid #c4974c !important;
+}
+
+.form-part {
+  display: none;
+}
+
+.form-part.active {
+  display: flex;
+}
+
+#booksession .button {
+  width: 100%;
+}
+
+.bg-grey-static {
+  background-color: #eaeaea;
+}
+
+.booking-details {
+  position: static;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .booking-details.fixed {
+    position: fixed;
+    transition: opacity 0.3s;
+  }
+
+}
+
+.button-inactive,
+.button-inactive:hover {
+  background-color: #cbcbcb !important;
+  color: #999999 !important;
+  cursor: default;
+}
+
+.submit-form {
+  cursor: pointer;
+}
+
+.booking {
+  transition: max-height 0.5s;
+  max-height: 999em;
+}
+
+.hideme {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.process {
+  transition: background-color 0.3s;
+}
+
+.go-back {
+  margin-top: 0.5em;
+  font-size: 0.8em;
+}
+
+.showmore:hover {
+  cursor: pointer;
+  color: #999999;
+}
+
+.hidden {
+  display: none;
+}
+
+message {
+  margin-top: 1em;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+
+/* Stripe */
+
+.StripeElement {
+  background-color: white;
+  height: 40px;
+  padding: 10px 12px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+/* Waiting list */
+
+.StripeElement--invalid p {
+  margin-bottom: 0;
+}
+
+.waiting-list input {
+  width: 100% !important;
+}
+
+
+
+@media (min-width: 768px) {
+  #upcoming-events {
+    border-bottom: 1px solid #d2d2d2;
+  }
+}
+
+
+
+
+.faq-question {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.faq-question:hover {
+  color: #c4974c;
+}
+
+.faq-question .fa-angle-up {
+  display: none;
+}
+
+.open .faq-question .fa-angle-up {
+  display: inline;
+}
+
+.open .faq-question .fa-angle-down {
+  display: none;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s;
+}
+
+.open .faq-question {
+  color: #c4974c;
+}
+
+.open .faq-answer {
+  max-height: 100vh;
+  overflow: visible;
+  transition: max-height 0.5s;
+  padding-bottom: 1.5em;
+}
+
+
+
+

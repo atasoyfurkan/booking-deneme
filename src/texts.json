@@ -1,0 +1,36 @@
+{
+  "howitworkstext": {
+    "title": "How it works",
+    "steps": [
+      {
+        "title": "Book your free 30 min session",
+        "text": "Choose from a variety of convenient dates, times and locations. We'll match you with the perfect pro."
+      },
+      {
+        "title": "Enjoy a customized photo shoot",
+        "text": "Our hand-picked photographers will make you feel comfortable and guide you to the perfect shot!"
+      },
+      {
+        "title": "Pay only for the pics you love",
+        "text": "In 3-5 business days, receive a gallery of 40+ lightly retouched digital photos to choose from."
+      }
+    ]
+  },
+  "whyustext": {
+    "title": "Why us?",
+    "steps": [
+      {
+        "title": "Easy as pie",
+        "text": "Simply pick a photography package, and have an experienced photographer booked instantly. Receive edited photos within 48hrs after the photoshoot. It's just that easy!"
+      },
+      {
+        "title": "Top photographers only",
+        "text": "We know quality is important to you, that's why only 2 out of 10 photographers who apply get accepted, and all photos delivered to you are fine-tuned by our editing team."
+      },
+      {
+        "title": "Save money",
+        "text": "We reduce the costs to photographers and fill the gaps on their calendars. That's why our flat-fee packages are fair to everyone and ensure you always get great photos at the best price."
+      }
+    ]
+  }
+}
